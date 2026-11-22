@@ -57,7 +57,7 @@ export function Header() {
     >
       <div className="header__inner wrap">
         <a href="#topo" className="header__logo" aria-label="Gabbe, voltar ao início">
-          <img src="/img/logo-horizontal.png" alt="Gabbe Designer de Marcas" width="160" height="46" />
+          <img src={`${import.meta.env.BASE_URL}img/logo-horizontal.png`} alt="Gabbe Designer de Marcas" width="160" height="46" />
         </a>
         <nav className="nav" aria-label="Principal">
           {links}
@@ -163,7 +163,7 @@ export function About() {
     <section className="about" id="sobre" ref={root}>
       <div className="wrap about__grid">
         <figure className="about__photo">
-          <img src="/img/gabriela.jpg" alt="Gabriela Sette" loading="lazy" />
+          <img src={`${import.meta.env.BASE_URL}img/gabriela.jpg`} alt="Gabriela Sette" loading="lazy" />
         </figure>
         <div className="about__body">
           <h2 className="h-section">Prazer, sou Gabriela Sette</h2>
@@ -449,7 +449,7 @@ export function Contact() {
                   bgColor="#E9DDD1"
                   fgColor="#052B2A"
                   marginSize={0}
-                  imageSettings={{ src: '/img/icone.png', height: 46, width: 46, excavate: true }}
+                  imageSettings={{ src: `${import.meta.env.BASE_URL}img/icone.png`, height: 46, width: 46, excavate: true }}
                   title="QR code para abrir o WhatsApp da Gabriela"
                 />
               </motion.div>
@@ -471,7 +471,7 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="wrap footer__inner">
-        <img src="/img/logo-horizontal.png" alt="Gabbe Designer de Marcas" width="180" height="52" loading="lazy" />
+        <img src={`${import.meta.env.BASE_URL}img/logo-horizontal.png`} alt="Gabbe Designer de Marcas" width="180" height="52" loading="lazy" />
         <p>
           © {year} Gabbe, Gabriela Sette. Desenvolvido por Eduardo Sette.
         </p>

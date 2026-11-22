@@ -1,3 +1,4 @@
+const B = import.meta.env.BASE_URL;
 // Textos de gabbe-kit/02-conteudo/TEXTOS.md e cores de gabbe-kit/03-projetos/paletas.json
 
 export const WHATSAPP = '5511943934176';
@@ -20,7 +21,7 @@ export const PROJETOS = [
     slug: 'casa-bianca',
     cliente: 'Casa Bianca 26 anos',
     setor: 'Materiais para construção',
-    img: '/img/projetos/casa-bianca.jpg',
+    img: B + 'img/projetos/casa-bianca.jpg',
     cores: [
       { nome: 'Marinho', hex: '#0F1B33' },
       { nome: 'Amarelo obra', hex: '#F2C94C' },
@@ -32,7 +33,7 @@ export const PROJETOS = [
     slug: 'afiacorte',
     cliente: 'Afiacorte',
     setor: 'Indústria de corte e afiação',
-    img: '/img/projetos/afiacorte.jpg',
+    img: B + 'img/projetos/afiacorte.jpg',
     cores: [
       { nome: 'Carvão', hex: '#21201E' },
       { nome: 'Verde corte', hex: '#93B715' },
@@ -43,7 +44,7 @@ export const PROJETOS = [
     slug: 'settatelie',
     cliente: 'Settateliê',
     setor: 'Crochê e produtos artesanais',
-    img: '/img/projetos/settatelie.jpg',
+    img: B + 'img/projetos/settatelie.jpg',
     cores: [
       { nome: 'Sálvia', hex: '#8A9A96' },
       { nome: 'Linho', hex: '#E2DAD2' },
@@ -54,7 +55,7 @@ export const PROJETOS = [
     slug: 'original-aco',
     cliente: 'Original Aço',
     setor: 'Telhas metálicas e isotérmicas',
-    img: '/img/projetos/original-aco.jpg',
+    img: B + 'img/projetos/original-aco.jpg',
     cores: [
       { nome: 'Preto aço', hex: '#000000' },
       { nome: 'Amarelo sinal', hex: '#FCD717' },
@@ -65,7 +66,7 @@ export const PROJETOS = [
     slug: 'lc-modas',
     cliente: 'LC Modas',
     setor: 'Loja de moda feminina',
-    img: '/img/projetos/lc-modas.jpg',
+    img: B + 'img/projetos/lc-modas.jpg',
     cores: [
       { nome: 'Cacau', hex: '#733F2A' },
       { nome: 'Rosé argila', hex: '#C58272' },

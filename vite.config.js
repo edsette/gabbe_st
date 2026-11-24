@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/gabbe_st/',
+  // Caminho relativo: o mesmo build funciona no GitHub Pages (/gabbe_st/) e na raiz do host do cliente.
+  base: './',
   plugins: [react()],
 })

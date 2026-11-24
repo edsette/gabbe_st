@@ -473,7 +473,11 @@ export function Footer() {
       <div className="wrap footer__inner">
         <img src={`${import.meta.env.BASE_URL}img/logo-horizontal.png`} alt="Gabbe Designer de Marcas" width="180" height="52" loading="lazy" />
         <p>
-          © {year} Gabbe, Gabriela Sette. Desenvolvido por Eduardo Sette.
+          © {year} Gabbe, Gabriela Sette. Desenvolvido por{' '}
+          <a href="https://edsette.github.io/edusettedev/" target="_blank" rel="noopener">
+            Eduardo Sette
+          </a>
+          .
         </p>
         <a href="#topo">Voltar ao topo</a>
       </div>

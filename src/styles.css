@@ -1034,6 +1034,14 @@ button {
 .footer__inner p {
   margin: 0;
 }
+.footer__inner p a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--terracota-claro);
+}
+.footer__inner p a:hover {
+  color: var(--bege);
+}
 
 .has-cursor,
 .has-cursor * {

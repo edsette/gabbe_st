@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Notas internas (só locais)
+README.md
+CLAUDE.md
+AGENTS.md
+.claude/
+docs/superpowers/
